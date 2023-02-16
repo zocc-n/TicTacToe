@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* border: none !important; */
+}
+
+body {
+    height: 100%;
+    background-color: darkslategray;
+}
+
+main {
+    border: 2px solid aquamarine;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.grid-container {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+}
+
+.field {
+    border: 1px solid gold;
+    height: 100px;
+    width: 100px;
+    display: grid;
+    place-content: center;
+}
+
+.field > p {
+    font-size: 5rem;
+}
